@@ -1,5 +1,7 @@
-// This function converts the text put into the associated Google Document into a template for the Task Manager to use.
-//// Needs to be attached to a MessageCreationInterface doc as in the example
+/**
+ * This function converts the text put into the associated Google Document into a template for the Task Manager to use.
+ * Needs to be attached to a MessageCreationInterface doc as in the example
+ */
 function CreateMessage() {
   var doc = DocumentApp.getActiveDocument();
   var body = doc.getBody();
